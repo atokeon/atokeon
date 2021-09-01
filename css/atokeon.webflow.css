@@ -296,9 +296,9 @@
   -ms-flex-align: center;
   align-items: center;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0.1rem;
   border-color: #fdfce4;
-  border-radius: 1000px;
+  border-radius: 3rem;
   font-family: Lato, sans-serif;
   color: #fdfce4;
   font-size: 13px;
@@ -318,7 +318,7 @@
   right: 0%;
   bottom: 0%;
   z-index: -1;
-  width: 300px;
+  width: 500px;
   height: 300px;
   border-style: solid;
   border-width: 2px;
