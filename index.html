@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Sep 16 2021 17:27:34 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Sep 18 2021 20:52:38 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6126950711c21e7c39062cc0" data-wf-site="6126950611c21e083c062cbc">
 <head>
   <meta charset="utf-8">
@@ -146,7 +146,7 @@ var line2=$('#line-2');
 var line3=$('#line-3');
 var title=$('#heading-title');
 var sub=$('#subtext-name');
-/// var texts=[];
+var texts=[];
 var subtexts=[];
 $( ".text-item" ).each(function() {
 	var x=$(this).find('.text').text();
@@ -154,7 +154,7 @@ $( ".text-item" ).each(function() {
 	texts.push(x);
   subtexts.push(y);
 });
-title.html(texts[0]);
+/// title.html(texts[0]);
 sub.text(subtexts[0]);
 function workAnimation(){
     setTimeout(function(){ 
